@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9216733816886504259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190703403238921033}
+  - component: {fileID: 3839381660682250945}
+  m_Layer: 0
+  m_Name: PlayerSpaceshipLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &190703403238921033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9216733816886504259}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 397.25613, y: 310.83124, z: -3.2389038}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3839381660682250945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9216733816886504259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c007b3ab43c024d9b695d0b41bf29b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  jetMaterials:
+  - {fileID: 2100000, guid: eccbcf3831cc36340b6d267c2e2e81a6, type: 2}
+  - {fileID: 2100000, guid: 8fe3c850112edf743b53951721ef03b3, type: 2}
+  - {fileID: 2100000, guid: dee359c89305fba4c8c4543780b3d58b, type: 2}
+  - {fileID: 2100000, guid: 05797a4e66e2a1e48a5c8143528c127b, type: 2}
+  - {fileID: 2100000, guid: 4e6cd653de06af245b43922b234821df, type: 2}
+  - {fileID: 2100000, guid: ae2dd518ca7523149b4810bfde04f4ed, type: 2}
